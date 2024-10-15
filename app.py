@@ -17,6 +17,17 @@ def classification(image_number):
 
 # Set the title of the app
 
+# st.image("sunrise.jpg", caption="Sunrise by the mountains")
+
+st.sidebar.image("image.png", use_column_width=True)
+
+# Using object notation
+add_selectbox = st.sidebar.selectbox(
+    "Прошли ли Вы осмотр у врача?",
+    ("Да", "Нет", "Планирую")
+)
+
+
 
 st.title("Рак молочной железы на основе гистопатологических данных")
 st.write("""
