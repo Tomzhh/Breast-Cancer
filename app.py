@@ -52,7 +52,7 @@ if uploaded_files:
             # Open and display the uploaded image
             image = Image.open(uploaded_file).convert('RGB')
             # Resize the image for display
-            image = image.resize((200, 200))
+            # image = image.resize((200, 200))
             
             st.image(image, caption=f'Загруженное изображение #{image_number}', use_column_width=True)
             
