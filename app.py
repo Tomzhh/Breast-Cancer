@@ -4,7 +4,7 @@ import random
 import time
 
 
-# st.set_page_config(layout='wide')
+st.set_page_config(layout='wide')
 
 if 'image_count' not in st.session_state:
     st.session_state.image_count = 0
