@@ -21,11 +21,14 @@ def classification(image_number):
 
 st.sidebar.image("image.png", use_column_width=True)
 
-# Using object notation
-add_selectbox = st.sidebar.selectbox(
-    "Прошли ли Вы осмотр у врача?",
-    ("Да", "Нет", "Планирую")
-)
+# # Using object notation
+# add_selectbox = st.sidebar.selectbox(
+#     "Прошли ли Вы осмотр у врача?",
+#     ("Да", "Нет", "Планирую")
+# )
+st.sidebar. write ("Набор открытых данных **Breast Histopathology Images**.")
+
+st.sidebar. write ("Исходный набор данных состоял из 162 слайд-изображений образцов (РМЖ), отсканированных при 40-кратном увеличении. Из этого было извлечено 277 524 участка размером 50 x 50 (198 738 IDC-отрицательных и 78 786 положительных).")
 
 
 
